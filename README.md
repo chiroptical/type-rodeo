@@ -7,7 +7,7 @@ data List a =
   | Cons a (List a)
 ```
 2. Determine which of the following are `Covariant`, `Contravariant`, or `Invariant` and implement the instances
-```
+```haskell
 newtype A a = A (a -> a)
 
 newtype B a = B ((Int -> a) -> Int)
