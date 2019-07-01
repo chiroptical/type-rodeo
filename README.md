@@ -2,7 +2,9 @@
 
 1. Implement `Semigroup`, `Functor`, `Applicative`, `Monad`, `Foldable`, and `Traversable` for:
 ```haskell
-data List a = Nil | Cons a (List a)
+data List a =
+    Nil 
+  | Cons a (List a)
 ```
 2. Implement `Functor`, `Applicative`, and `Monad` for:
 ```haskell
